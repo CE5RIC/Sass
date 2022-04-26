@@ -7,7 +7,7 @@
 
 $generalPaddingBlue: 8px;
 $generalPaddingRed: 16px;
-
+$doublePadding: $generalPaddingBlue * 2;
 
 
 body {
@@ -81,7 +81,7 @@ h1 {
 h6 {
     text-align: center;
     font-size: 2em;
-    padding: 32px;
+    padding: $doublePadding;
     margin-bottom: 0px
 }
 
